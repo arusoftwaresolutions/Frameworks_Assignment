@@ -7,7 +7,7 @@ import pandas as pd
 
 # Part 1: Data Loading and Basic Exploration
 
-# Load metadata.csv 
+# Load metadata.csv (download from Kaggle and place in working dir)
 try:
     df = pd.read_csv("metadata.csv", low_memory=False)
     print("Dataset loaded successfully!")
